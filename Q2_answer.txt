@@ -1,0 +1,5 @@
+1. What happens when the number of hidden nodes increase?
+As the number of hidden nodes increased, the model became more capable of learning complex patterns, so accuracy improved at first. However, after a certain point the accuracy stopped improving and even slightly dropped, showing that more nodes don’t always mean better performance.
+
+2. Can you explain the pattern of the accuracy when the hidden nodes increase?
+Accuracy rose quickly when going from very few nodes to around 3–5 nodes, since the model moved from underfitting to a good balance. Beyond this point, the accuracy leveled off and slightly decreased, which reflects overfitting or unnecessary complexity in the network.
